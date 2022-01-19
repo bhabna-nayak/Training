@@ -1,0 +1,54 @@
+1. Welcome screen -
+
+	a. Application name and the developer details 
+	b. The details of the user interface such as options displaying the user interaction information 
+	c. Features to accept the user input to select one of the options listed 
+
+
+2. Main Menu
+
+	A. First Option -
+
+		a. Should return the current file names in ascending order. 
+		b. The root directory can be either empty or contain few files or folders in it
+
+
+	B. Second Option -
+
+		a. Add a file to the existing directory list
+		b. Delete a user specified file from the existing directory list
+		c. Search a user specified file from the main directory
+
+
+	C. Third Option -
+
+		Close the application
+
+
+3. Sub Menu
+
+	A. Add a file to the existing directory list
+	
+		a. May add file sensitivity
+		b. Return a message if file already exists
+
+
+	B. Delete a user specified file from the existing directory list
+		
+		a. Add the case sensitivity on the file name 
+		b. Return a message if FNF (File not found)
+
+
+	C. Search a user specified file from the main directory
+		
+		a. Add the case sensitivity on the file name 
+		b. Display the result upon successful operation
+		c. Display the result upon unsuccessful operation
+
+
+	D. Go back to Main Menu
+
+
+4. End screen
+
+	After closing the apllication should display Thank you
