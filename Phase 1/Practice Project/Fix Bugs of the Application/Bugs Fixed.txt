@@ -1,0 +1,55 @@
+1. ArrayList<Integer> arrlist = new ArrayList<Integer>(); -	
+
+	a. We dont need this statement. 
+	b. Because we already have - ArrayList<Integer> expenses = new ArrayList<Integer>();
+	c. Hence I have deleted.
+
+
+2. Made the expense arraylist a private static arraylist
+
+
+3. expenses.addAll(arrlist); -
+	
+	a. We dont need this statement. 
+	b. Because we don't need to append all of the elements in the specified collection
+	c. Hence I have deleted.
+
+
+4.  int[] arr1 = {1,2,3,4,5,6};
+    int  slen = arr1.length;
+
+	a. We dont need this statement.
+	b. Because in for loop we have used arr[i].
+	c. Hence I have deleted.
+
+
+5. Filled cases 4 and 5
+
+
+6. sortExpenses 
+	
+	a. Completed the method. 
+	b. The expenses sorted in ascending order.
+
+
+7. mergeSort
+
+	a. small list don't need to be merged
+	b. The arraylist is empty.
+	c. The values are in the temporary ones. 
+
+
+8. mergeSort(left); 
+ 
+	recursive call to further divide left
+
+	        
+9. mergeSort(right); 
+
+	recursive call to further divide right
+
+
+10. import java.util.*;
+
+	Imported java.util.* instead of importing java.util.ArrayList; & java.util.Scanner;
+	       
